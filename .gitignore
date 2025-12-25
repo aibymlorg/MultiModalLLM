@@ -42,3 +42,51 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python (from legacy Python version)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+bin/
+include/
+pyvenv.cfg
+lib/
+share/
+
+# Environment variables
+.env
+env
+
+# IDE
+.vscode/
+.idea/
+
+# Gradio
+gradio_cached_examples/
+
+# Images (keep examples but ignore uploads)
+*.zip
+
+# Logs
+*.log
