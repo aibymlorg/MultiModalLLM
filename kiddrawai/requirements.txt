@@ -1,0 +1,6 @@
+gradio
+python-dotenv
+requests
+wolframalpha
+matplotlib
+nest_asyncio
